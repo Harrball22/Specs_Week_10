@@ -89,6 +89,9 @@ public class Main {
         drinkMenu.add(water);
         drinkMenu.add(soda);
         drinkMenu.add(milk);
+
+        // Ordering
+        new Order(cupcakeMenu, drinkMenu);
     }
 }
 
